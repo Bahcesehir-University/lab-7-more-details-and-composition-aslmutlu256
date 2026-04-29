@@ -31,7 +31,7 @@ public:
     void display() const  { std::cout << "(" << x << ", " << y << ")"; }
 
     // TODO 5: declare Rectangle as friend class
-    friend class Rectangle; 
+    friend class Rectangle ; 
 };
 
 
@@ -76,7 +76,7 @@ public:
 
 // TODO 12: implement isSameSize
 bool isSameSize(const Rectangle& r1, const Rectangle& r2) {
-    return  (r1.getArea() && r2.getArea());
+    return  (r1.getArea() == r2.getArea());
 }
 
 
